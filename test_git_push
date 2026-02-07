@@ -1,0 +1,3 @@
+#!/bin/bash
+# my testing script fot git
+echo "Hi, Git"
