@@ -1,0 +1,19 @@
+#!/bin/bash
+# my sysinfo page
+
+title="System Information for $HOSTNAME"
+RIGHT_NOW="$(date +"%x %r %Z")"
+TIMESTAMP="Updated on $RIGHT_NOW by $USER"
+cat <<- _EOF_
+	<HTML>
+	<head>
+	  <title>
+		$title
+	  </title>
+	</head>
+	<body>
+	<h1>$title</h1>
+	<p>$TIMESTAMP</p>
+	</body>
+	</HTML>
+_EOF_
