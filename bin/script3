@@ -1,0 +1,5 @@
+#!/bin/bash
+# My shell script
+title="My shell Script"
+myhostname="$HOSTNAME"
+echo $title in $myhostname
